@@ -12,14 +12,12 @@ public class info extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
     }
-    public void StartMainActivity(View view) {
-        startActivity(new Intent(this, MainActivity.class));
-
-    }
-    public void LoginStartActivity(View view) {
+    public void StartPageActivity(View view) {
         startActivity(new Intent(this, StartPage.class));
 
     }
+
+
     public void InfoActivity(View view) {
         startActivity(new Intent(this, info.class));
 

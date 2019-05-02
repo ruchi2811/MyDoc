@@ -93,7 +93,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
             @Override
             public void onClick(View v) {
                 trySelector();
-                Toast.makeText(EditorActivity.this, "ammaaaaaaaaaaaaak", Toast.LENGTH_SHORT).show();
+                Toast.makeText(EditorActivity.this, "Please select a picture", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -143,7 +143,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         values.put(PatientsEntry.COLUMN_PATIENT_DESCRIPTION, mDescription);
 
         if (image == null) {
-            Toast.makeText(this, "حط صورة ياسطا", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Profile picture is must", Toast.LENGTH_LONG).show();
         } else {
 
             if (currentUri == null) {

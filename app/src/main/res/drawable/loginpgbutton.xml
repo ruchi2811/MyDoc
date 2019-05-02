@@ -7,7 +7,7 @@
         android:type="linear"
         android:startColor="#000000"
         android:endColor="#212121"
-        android:centerColor="#ba000d"
+        android:centerColor="#a4a4a4"
 
 
         android:angle="90"
@@ -15,8 +15,8 @@
         />
 
     <corners
-        android:bottomLeftRadius="0dp"
-        android:topLeftRadius="0dp"
+        android:bottomLeftRadius="25dp"
+        android:topLeftRadius="25dp"
         android:bottomRightRadius="25dp"
         android:topRightRadius="25dp">
 
